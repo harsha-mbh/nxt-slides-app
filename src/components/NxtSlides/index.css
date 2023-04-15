@@ -1,0 +1,56 @@
+.content-container {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  margin: 0;
+}
+.btn-container {
+  width: 100%;
+  margin-top: 12px;
+  padding-left: 20px;
+}
+.new-button {
+  background-color: #dbeafe;
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 4px;
+}
+.new-plus-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+}
+.slides-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slides-list-container {
+  overflow-y: scroll;
+  width: 15vw;
+}
+.slides-ordered-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.active-slide-container {
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.active-slide-item {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  width: 900px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 0.5px #475569;
+}

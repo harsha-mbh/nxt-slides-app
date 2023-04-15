@@ -1,0 +1,20 @@
+.nav-header {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  background-color: #dbeafe;
+  margin: 0;
+}
+.logo-img {
+  width: 120px;
+  height: 80px;
+  margin-right: 20px;
+}
+.logo-heading {
+  font-family: 'Bree Serif';
+  font-size: 32px;
+  color: #0f172a;
+  font-weight: 700;
+}
